@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
  * @Project java_upstream
  * @Package indi.w4xj.jmm
  * @Classname VolatileTest
- * @Description
+ * @Description volatile可以保证可见性
  * @Date 2021/1/22 10:22
  * @Created by IntelliJ IDEA
  */

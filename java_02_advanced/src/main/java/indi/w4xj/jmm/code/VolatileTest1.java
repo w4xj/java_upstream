@@ -1,4 +1,4 @@
-package indi.w4xj.jmm;
+package indi.w4xj.jmm.code;
 
 import java.util.concurrent.TimeUnit;
 
@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
  * @Date 2021/1/22 10:22
  * @Created by IntelliJ IDEA
  */
-public class VolatileTest {
+public class VolatileTest1 {
     public static void main(String[] args) {
         Data data = new Data();
         new Thread(() ->{

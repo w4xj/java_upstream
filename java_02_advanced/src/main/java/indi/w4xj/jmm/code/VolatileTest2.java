@@ -1,4 +1,4 @@
-package indi.w4xj.jmm;
+package indi.w4xj.jmm.code;
 
 /**
  * @Author lemon joker

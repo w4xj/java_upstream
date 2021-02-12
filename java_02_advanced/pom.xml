@@ -8,5 +8,17 @@
     <artifactId>java_02_advanced</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+        <!--lombok插件-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.18</version>
+        </dependency>
+
+    </dependencies>
+    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+
+
 
 </project>

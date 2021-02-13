@@ -53,12 +53,12 @@ public class AtomicInteger extends Number implements java.io.Serializable {
 #### ③.变量value用volatile修饰，保证了多线程之间的内存可见性。
 ### [4].调用原理
 ![Image text](./image/casandaba01.png)
-### [5].Unsafe类中的compareAndSwapInt，是一个本地方法，该方法的实现位于unsafe.cpp中，红色部分即保证其原子性
-UNSAFE_ENTRY(jboolean, Unsafe_CompareAndSwapInt(JNIEnv *env, jobject unsafe, jobject obj, jlong offset, jint e, jint x))
-  UnsafeWrapper("Unsafe_CompareAndSwapInt");
-  oop p = JNIHandles::resolve(obj);
-  jint* addr = (jint *) index_oop_from_field_offset_long(p, offset);
-  return (jint)<span style="color:red"> (Atomic::cmpxchg(x, addr, e)) == e;</span>
+### [5].Unsafe类中的compareAndSwapInt，是一个本地方法，该方法的实现位于unsafe.cpp中，红色部分((Atomic::cmpxchg(x, addr, e)) == e;)即保证其原子性
+UNSAFE_ENTRY(jboolean, Unsafe_CompareAndSwapInt(JNIEnv *env, jobject unsafe, jobject obj, jlong offset, jint e, jint x))<br/>
+  UnsafeWrapper("Unsafe_CompareAndSwapInt");<br/>
+  oop p = JNIHandles::resolve(obj);<br/>
+  jint* addr = (jint *) index_oop_from_field_offset_long(p, offset);<br/>
+  return (jint)<span style="color:red"> (Atomic::cmpxchg(x, addr, e)) == e;</span><br/>
 UNSAFE_END
 
 ##### 说明：先想办法拿到变量value在内存中的地址。通过Atomic::cmpxchg实现比较替换，其中参数x是即将更新的值，参数e是原内存的值。

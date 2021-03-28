@@ -8,5 +8,13 @@
     <artifactId>java_01_se</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+<dependencies>
+    <dependency>
+        <groupId>org.openjdk.jol</groupId>
+        <artifactId>jol-core</artifactId>
+        <version>0.9</version>
+    </dependency>
+
+</dependencies>
 
 </project>

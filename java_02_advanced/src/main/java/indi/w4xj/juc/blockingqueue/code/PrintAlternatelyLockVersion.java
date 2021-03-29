@@ -13,7 +13,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * @Date 2021/2/14 14:47
  * @Created by IntelliJ IDEA
  */
-public class ProducerConsumerLockVersion {
+public class PrintAlternatelyLockVersion {
     public static void main(String[] args) {
         /*
         线程操作资源类

@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
  * @Date 2021/2/14 14:50
  * @Created by IntelliJ IDEA
  */
-public class ProducerConsumerSynchronizedVersion {
+public class PrintAlternatelyVolatileVersion {
     public static void main(String[] args) {
         SyncResource syncResource = new SyncResource();
         new Thread(()->{

@@ -1,6 +1,7 @@
 package indi.w4xj.juc.blockingqueue.code;
 
 import java.util.PrimitiveIterator;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @Author lemon joker
@@ -16,16 +17,18 @@ public class PrintAlternatelyWaitNotifyVersion {
 
         class Printer implements Runnable{
             int num;
-            public Printer(int num) {
+            int total;
+            public Printer(int num, int total) {
                 this.num = num;
+                this.total = total;
             }
             @Override
             public void run() {
-                for (int i = 0; i < 5; i++) {
+                for (int i = 0; i < total; i++) {
                     synchronized (Printer.class){
                         Printer.class.notify();
                         System.out.println(num);
-                        if( i < 5){
+                        if( i < total - 1){
                             try { Printer.class.wait(); } catch (InterruptedException e) { e.printStackTrace(); }
                         }
                     }
@@ -33,8 +36,13 @@ public class PrintAlternatelyWaitNotifyVersion {
             }
         }
 
-        new Thread(new Printer(1)).start();
-        new Thread(new Printer(0)).start();
+        new Thread(new Printer(1, 5)).start();
+        try {
+            TimeUnit.MICROSECONDS.sleep(10);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        new Thread(new Printer(0, 5)).start();
 
     }
 }

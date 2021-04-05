@@ -1,4 +1,4 @@
-package indi.w4xj.juc.blockingqueue.code;
+package indi.w4xj.juc.lock.code;
 
 import java.util.PrimitiveIterator;
 import java.util.concurrent.TimeUnit;

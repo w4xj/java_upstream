@@ -12,7 +12,7 @@
 ### <span style="color:red">[2].LinkedBlockingQueue ：一个由链表结构组成的有界（但大小默认值为Integer.MAX_VALUE）阻塞队列。</span>
 ### [3].PriorityBlockingQueue ：一个支持优先级排序的无界阻塞队列。
 ### [4].DelayQueue：一个使用优先级队列实现的无界阻塞队列。
-### <span style="color:red">[5].SynchronousQueue：一个不存储元素的阻塞队列，也即单个元素的队列。</span>
+### <span style="color:red">[5].SynchronousQueue：一个不存储元素的阻塞队列，必须由两个线程分别调用，不然一方一直阻塞。</span>
 ### [6].LinkedTransferQueue：一个由链表结构组成的无界阻塞队列。
 ### [7].LinkedBlocking<span style="color:green">Deque</span>：一个由链表结构组成的<span style="color:green">双向</span>阻塞队列
 ## 4.常用方法
@@ -37,13 +37,9 @@
 #### ②.如果超过一定的时间，生产者线程就会退出。
 [超时退出示例](./code/TimeBlockingQueue.java)
 ## 5.SynchronousQueue
-### [1].SynchronousQueue只能存放一个元素，与其他BlockingQueue不同，SynchronousQueue容量为1。每一个put操作必须要等待一个take操作，否则不能继续添加元素，反之亦然
+### [1].SynchronousQueue不存放元素，与其他BlockingQueue不同，SynchronousQueue容量为0。每一个put操作必须要等待一个take操作，否则不能继续添加元素，且会一直阻塞，反之亦然。而且不能调父类的add方法Queue full
 ### [2].代码示例
 [单元素队列示例](./code/SynchronousQueueTest.java)
-## 6.生产消费者的几种实现方式（交替打印0和1）
-### [1].使用synchronized，这里其实可以不用synchronized，synchronized这里只是单纯保证打印0和1的顺序，因为控制台的System.out.println并不同步
-[使用synchronized交替打印0和1](./code/ProducerConsumerSynchronizedVersion.java)
-### [2].使用Lock（Lock和synchronized的对比，见Java锁）
-[使用Lock交替打印0和1示例](./code/ProducerConsumerLockVersion.java)
+## 6.生产消费者的几种实现方式
 ### [3].使用阻塞队列模拟面包店
 [使用阻塞队列模拟面包店示例](./code/ProducerConsumerBlockingQueueVersion.java)

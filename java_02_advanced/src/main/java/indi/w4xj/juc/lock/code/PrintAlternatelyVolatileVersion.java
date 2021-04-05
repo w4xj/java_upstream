@@ -1,6 +1,4 @@
-package indi.w4xj.juc.blockingqueue.code;
-
-import java.util.concurrent.TimeUnit;
+package indi.w4xj.juc.lock.code;
 
 /**
  * @Author lemon joker

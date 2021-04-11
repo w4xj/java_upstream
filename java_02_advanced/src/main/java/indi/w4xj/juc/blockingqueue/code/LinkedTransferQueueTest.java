@@ -28,13 +28,15 @@ public class LinkedTransferQueueTest {
         //strs.put("aaa");
 
 
-		/*new Thread(() -> {
+		/*
+		new Thread(() -> {
 			try {
 				System.out.println(strs.take());
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-		}).start();*/
+		}).start();
+		*/
 
 
     }

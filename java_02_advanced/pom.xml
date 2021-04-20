@@ -10,10 +10,17 @@
 
     <dependencies>
         <!--lombok插件-->
+        <!--
+        1.18.14 解决这个脑残问题  （https://www.jb51.net/article/202016.htm）
+        java: You aren't using a compiler supported by lombok, so lombok will not work and has been disabled.
+          Your processor is: com.sun.proxy.$Proxy25
+          Lombok supports: sun/apple javac 1.6, ECJ
+        -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.16.10</version>
+            <version>1.18.14</version>
+            <scope>provided</scope>
         </dependency>
 
         <dependency>

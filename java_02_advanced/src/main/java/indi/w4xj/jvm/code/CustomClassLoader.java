@@ -16,6 +16,10 @@ import java.lang.reflect.Method;
  * @Created by IntelliJ IDEA
  */
 public class CustomClassLoader extends ClassLoader {
+    public CustomClassLoader(){
+        //指定parent
+        super(getSystemClassLoader());
+    }
 
     @Override
     protected Class<?> findClass(String name) throws ClassNotFoundException {
@@ -54,7 +58,7 @@ public class CustomClassLoader extends ClassLoader {
             //true
             System.out.println(clazz1 == clazz2);
 
-            //sun.misc.Launcher$AppClassLoader@18b4aac2 ??
+            //sun.misc.Launcher$AppClassLoader@18b4aac2
             System.out.println(clazz1.getClassLoader());
             //sun.misc.Launcher$ExtClassLoader@61bbe9ba
             System.out.println(clazz1.getClassLoader().getParent());

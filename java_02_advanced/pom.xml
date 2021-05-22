@@ -57,6 +57,13 @@
             <artifactId>disruptor</artifactId>
             <version>3.4.2</version>
         </dependency>
+
+        <!-- 纤程 -->
+        <dependency>
+            <groupId>co.paralleluniverse</groupId>
+            <artifactId>quasar-core</artifactId>
+            <version>0.8.0</version>
+        </dependency>
     </dependencies>
     <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
 

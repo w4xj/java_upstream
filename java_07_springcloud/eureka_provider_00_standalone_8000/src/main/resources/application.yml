@@ -1,0 +1,17 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    #应用名
+    name: provider
+
+#注册中心
+eureka:
+  instance:
+    #注册进Eureka的实例Id
+    instance-id: provider8000
+  client:
+    #设置服务注册中心的URL
+    service-url:
+      defaultZone: http://localhost:7000/eureka/

@@ -1,0 +1,16 @@
+server:
+  #声明服务的端口
+  port: 7002
+eureka:
+  #单机情况下这里可以不配置eureka.instance.hostname，但是如果配置成空则会报错
+  #org.springframework.context.ApplicationContextException: Failed to start bean 'eurekaAutoServiceRegistration'; ... Factory method 'eurekaApplicationInfoManager' threw exception; nested exception is java.lang.NullPointerException
+  instance:
+    hostname: eureka7002.com
+  client:
+    #是否将自己注册到Eureka Server,默认为true，由于当前就是server，故而设置成false，表明该服务不会向eureka注册自己的信息
+    register-with-eureka: true
+    #是否从eureka server获取注册信息，由于单节点，不需要同步其他节点数据，用false
+    fetch-registry: true
+    service-url:
+      #设置服务注册中心的URL，用于client和server端交流
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7003.com:7003/eureka/

@@ -59,9 +59,9 @@ public class RedisRdbSimulation {
             Thread.yield();
         }
 
-        System.out.println(redisData.get("a"));
-        System.out.println(redisData.get("b"));
-        System.out.println(redisData.get("c"));
+        System.out.println(get("a"));
+        System.out.println(lRange("b",0, -1));
+        System.out.println(hGetAll("c"));
 
     }
 
@@ -159,18 +159,68 @@ public class RedisRdbSimulation {
     }
 
     /**
-     *
+     * 模拟get
      * @param key
      * @return
      */
     private static String get(String key) {
         Value value = redisData.get(key);
-        if(value.getValue() instanceof String){
-
+        if(null == value){
+            return null;
+        } else if(value.getValue() instanceof String){
+            return (String) value.getValue();
         } else {
-
+            throw new RuntimeException("WRONGTYPE Operation against a key holding the wrong kind of value");
         }
-        return null;
+    }
+
+    /**
+     * 模拟lrange命名取list范围  支持正向索引和逆向索引
+     * @param key 键
+     * @param start 开始位置
+     * @param stop 结束位置
+     * @return
+     */
+    private static List lRange(String key, int start, int stop) {
+        Value value = redisData.get(key);
+        if(null == value){
+            return null;
+        } else if(value.getValue() instanceof List){
+            List list = (List) value.getValue();
+            //逆向索引转正向索引
+            if(start < 0){
+                start += list.size();
+            }
+            if(stop < 0){
+                stop += list.size();
+            }
+            if(start > stop){ //redis只支持从左到右取
+                throw new RuntimeException("empty list or set");
+            }
+            //Params:
+            //fromIndex – low endpoint (inclusive) of the subList
+            //toIndex – high endpoint (exclusive) of the subList
+            return list.subList(start, stop + 1);
+        } else {//类型不匹配
+            throw new RuntimeException("WRONGTYPE Operation against a key holding the wrong kind of value");
+        }
+    }
+
+    /**
+     * 模拟获取hash的所有值
+     * @param key
+     * @return
+     */
+    private static Map hGetAll(String key) {
+        Value value = redisData.get(key);
+        if(null == value){
+            return null;
+        }else if(value.getValue() instanceof Map) {
+            return (Map) value.getValue();
+        }else {//类型不匹配
+            throw new RuntimeException("WRONGTYPE Operation against a key holding the wrong kind of value");
+        }
+
     }
 
 

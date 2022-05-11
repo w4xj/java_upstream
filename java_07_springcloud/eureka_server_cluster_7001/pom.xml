@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>indi.w4xj</groupId>
-    <artifactId>eureka_server_7001</artifactId>
+    <artifactId>eureka_server_cluster_7001</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eureka_server_7001</name>
+    <name>eureka_server_cluster_7001</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>

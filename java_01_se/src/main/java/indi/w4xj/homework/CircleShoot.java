@@ -4,10 +4,10 @@ package indi.w4xj.homework;
  * @Author Yolo Cheung
  * @Project java_upstream
  * @Package indi.w4xj.homework
- * @Classname Circleshoot
+ * @Classname CircleShoot
  * @Description 转圈枪毙
  * 需求：有一把无限子弹的枪，一群人围成一圈，后面一个人把前一个打死，然后把枪给前一个或者的人，问谁最后活着
- * 限定：一个人一次只能开一枪，一个子弹不能穿葫芦（打死多个），也不能打偏，不能卡壳炸膛，必须打到前一个人
+ * 限定：一个人一次只能开一枪，一个子弹不能穿葫芦（打死多个），也不能打偏，不能卡壳炸膛，必须打到前一个人，必爆头
  * @Date 2022/4/22 19:11
  * @Created by IntelliJ IDEA
  */
@@ -18,7 +18,6 @@ public class CircleShoot {
         init(somebody);
         //开枪
         shoot(somebody);
-
     }
 
     /**

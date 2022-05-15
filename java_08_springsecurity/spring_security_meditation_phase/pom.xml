@@ -2,43 +2,46 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.3.12.RELEASE</version>
+        <version>2.1.9.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.w4xj</groupId>
-    <artifactId>spring_security_meditation_phase</artifactId>
+    <groupId>cn.felord.spring</groupId>
+    <artifactId>security-learning</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring_security_meditation_phase</name>
-    <description>spring_security_meditation_phase</description>
+    <name>security-learning</name>
+    <description>spring security learning demo</description>
+
     <properties>
         <java.version>1.8</java.version>
     </properties>
+
     <dependencies>
-        <!-- actuator 指标监控 非必须 -->
+        <!--  actuator 指标监控  非必须 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
-        <!-- spring security starter 必须 -->
+        <!--  spring security starter 必须  -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
-        <!-- spring mvc servlet web 必须 -->
+        <!-- spring mvc  servlet web  必须  -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <!-- lombok 插件 非必须 -->
+        <!--   lombok 插件 非必须       -->
         <dependency>
-        <groupId>org.projectlombok</groupId>
-        <artifactId>lombok</artifactId>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
-        <!-- 测试 -->
+        <!-- 测试   -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>

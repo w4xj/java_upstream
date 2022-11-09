@@ -1,4 +1,4 @@
-package com.w4xj.principle.single.responsibility;
+package com.w4xj.principle.single_responsibility;
 
 /**
  * @Author lemon joker
@@ -12,6 +12,11 @@ package com.w4xj.principle.single.responsibility;
 public class SingleResponsibility3 {
 
     public static void main(String[] args) {
+        /**
+         * 方式3分析
+         * 这种修改方式没有对原来的类做大的修改，只是增加方法
+         * 这里虽然没有在类的级别上遵守单一职责，但在方法级别上遵守了单一职责
+         */
         Vehicle3 vehicle3 = new Vehicle3();
         vehicle3.run("汽车");
         vehicle3.runAir("飞机");

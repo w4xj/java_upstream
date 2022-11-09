@@ -1,4 +1,4 @@
-package com.w4xj.principle.single.responsibility;
+package com.w4xj.principle.single_responsibility;
 
 /**
  * @Author lemon joker

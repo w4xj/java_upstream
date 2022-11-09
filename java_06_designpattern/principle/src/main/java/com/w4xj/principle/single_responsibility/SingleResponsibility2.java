@@ -1,4 +1,4 @@
-package com.w4xj.principle.single.responsibility;
+package com.w4xj.principle.single_responsibility;
 
 /**
  * @Author lemon joker
@@ -11,6 +11,13 @@ package com.w4xj.principle.single.responsibility;
  */
 public class SingleResponsibility2 {
     public static void main(String[] args) {
+        /**
+         * 方案2的分析
+         * 1.遵守单一职责原则
+         * 2.但是这样做的改动很大，即将类分解，同时修改客户端
+         * 3.改进：直接修改Vehicle类，改动会比较少
+         */
+
         RoadVehicle roadVehicle = new RoadVehicle();
         roadVehicle.run("摩托车");
 

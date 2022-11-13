@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
  * @Project java_upstream
  * @Package indi.w4xj.juc.blockingqueue.code
  * @Classname ProducerConsumerWaitNotifyVersion
- * @Description TODO
+ * @Description 
  * @Date 2021/3/30 22:12
  * @Created by IntelliJ IDEA
  */

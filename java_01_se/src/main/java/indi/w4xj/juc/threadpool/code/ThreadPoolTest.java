@@ -7,7 +7,7 @@ import java.util.concurrent.*;
  * @Project java_upstream
  * @Package indi.w4xj.juc.threadpool.code
  * @Classname ThreadPoolTest
- * @Description TODO
+ * @Description 
  * @Date 2021/2/15 11:28
  * @Created by IntelliJ IDEA
  */

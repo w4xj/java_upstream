@@ -5,7 +5,7 @@ package indi.w4xj.thread;
  * @Project java_upstream
  * @Package indi.w4xj.thread
  * @Classname WaitNotifyTest
- * @Description TODO
+ * @Description 
  * @Date 2021/3/29 22:27
  * @Created by IntelliJ IDEA
  */

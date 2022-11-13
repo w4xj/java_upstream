@@ -9,7 +9,7 @@ import java.util.concurrent.*;
  * @Project java_upstream
  * @Package indi.w4xj.juc.threadpool.code
  * @Classname ExecutorsDemo
- * @Description TODO
+ * @Description 
  * @Date 2021/2/15 11:33
  * @Created by IntelliJ IDEA
  */

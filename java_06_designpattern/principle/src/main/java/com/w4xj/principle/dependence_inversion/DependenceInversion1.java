@@ -5,7 +5,7 @@ package com.w4xj.principle.dependence_inversion;
  * @Project java_upstream
  * @Package com.w4xj.principle.dependence_inversion
  * @Classname DependenceInversion1
- * @Description TODO
+ * @Description 
  * @Date 2022/11/9 22:00
  * @Created by IntelliJ IDEA
  */

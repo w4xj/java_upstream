@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
  * @Project java_upstream
  * @Package indi.w4xj.juc.deadlock.code
  * @Classname DeadLockTest
- * @Description TODO
+ * @Description 
  * @Date 2021/2/15 12:46
  * @Created by IntelliJ IDEA
  */

@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
  * @Project java_upstream
  * @Package indi.w4xj.eureka_consumer_00_standalone_9000.config
  * @Classname BeanConfig
- * @Description TODO
+ * @Description 
  * @Date 2021/6/1 22:12
  * @Created by IntelliJ IDEA
  */

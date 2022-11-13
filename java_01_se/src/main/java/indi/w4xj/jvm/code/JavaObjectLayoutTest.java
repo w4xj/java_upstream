@@ -7,7 +7,7 @@ import org.openjdk.jol.info.ClassLayout;
  * @Project java_upstream
  * @Package indi.w4xj.jvm.code
  * @Classname JavaObjectLayoutTest
- * @Description TODO
+ * @Description 
  * @Date 2022/11/6 12:15
  * @Created by IntelliJ IDEA
  */

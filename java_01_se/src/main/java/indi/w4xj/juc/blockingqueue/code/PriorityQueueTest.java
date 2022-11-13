@@ -7,7 +7,7 @@ import java.util.PriorityQueue;
  * @Project java_upstream
  * @Package indi.w4xj.juc.blockingqueue.code
  * @Classname PriorityQuequeTest
- * @Description TODO
+ * @Description 
  * @Date 2021/4/5 14:25
  * @Created by IntelliJ IDEA
  */

@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
  * @Project java_upstream
  * @Package indi.w4xj.juc.aqs.code
  * @Classname SemaphoreTest
- * @Description TODO
+ * @Description
  * @Date 2021/2/14 12:50
  * @Created by IntelliJ IDEA
  */

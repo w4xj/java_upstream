@@ -5,7 +5,7 @@ package indi.w4xj.juc.lock.code;
  * @Project java_upstream
  * @Package indi.w4xj.juc.blockingqueue.code
  * @Classname ProducerConsumerSynchronizedVersion
- * @Description TODO
+ * @Description 
  * @Date 2021/2/14 14:50
  * @Created by IntelliJ IDEA
  */

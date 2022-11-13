@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
  * @Project java_upstream
  * @Package indi.w4xj.thread
  * @Classname WhatIsThread
- * @Description TODO
+ * @Description 
  * @Date 2021/3/27 23:19
  * @Created by IntelliJ IDEA
  */

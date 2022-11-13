@@ -5,7 +5,7 @@ package com.w4xj.principle.single_responsibility;
  * @Project java_upstream
  * @Package com.w4xj.principle.single.responsibility
  * @Classname SingleResponsibility3
- * @Description TODO
+ * @Description 
  * @Date 2021/3/13 12:35
  * @Created by IntelliJ IDEA
  */

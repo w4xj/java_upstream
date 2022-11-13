@@ -7,7 +7,7 @@ import java.lang.ref.WeakReference;
  * @Project java_upstream
  * @Package indi.w4xj.jvm.code
  * @Classname WeakReferenceGCTest
- * @Description TODO
+ * @Description 
  * @Date 2021/2/16 11:32
  * @Created by IntelliJ IDEA
  */

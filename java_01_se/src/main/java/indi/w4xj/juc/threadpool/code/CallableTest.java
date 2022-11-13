@@ -8,7 +8,7 @@ import java.util.concurrent.FutureTask;
  * @Project java_upstream
  * @Package indi.w4xj.juc.threadpool.code
  * @Classname CallableTest
- * @Description TODO
+ * @Description 
  * @Date 2021/2/15 10:16
  * @Created by IntelliJ IDEA
  */

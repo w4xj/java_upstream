@@ -11,7 +11,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * @Project java_upstream
  * @Package indi.w4xj.juc.blockingqueue.code
  * @Classname ProducerConsumerLockConditionVersion
- * @Description TODO
+ * @Description 
  * @Date 2021/3/30 22:29
  * @Created by IntelliJ IDEA
  */

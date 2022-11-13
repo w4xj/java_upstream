@@ -5,7 +5,7 @@ package indi.w4xj.synchronize;
  * @Project java_upstream
  * @Package indi.w4xj.thread
  * @Classname NullObjectAsSynchronized
- * @Description TODO
+ * @Description 
  * @Date 2021/3/28 13:02
  * @Created by IntelliJ IDEA
  */

@@ -8,7 +8,7 @@ import java.lang.ref.WeakReference;
  * @Project java_upstream
  * @Package indi.w4xj.jvm.code
  * @Classname ReferenceQueueTest
- * @Description TODO
+ * @Description 
  * @Date 2021/2/16 11:40
  * @Created by IntelliJ IDEA
  */

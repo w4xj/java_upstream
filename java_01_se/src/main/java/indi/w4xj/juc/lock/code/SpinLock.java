@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicReference;
  * @Project java_upstream
  * @Package indi.w4xj.juc.lock.code
  * @Classname SpinLock
- * @Description TODO
+ * @Description
  * @Date 2021/2/13 14:41
  * @Created by IntelliJ IDEA
  */

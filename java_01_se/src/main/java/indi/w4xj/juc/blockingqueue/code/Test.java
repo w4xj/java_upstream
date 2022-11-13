@@ -5,7 +5,7 @@ package indi.w4xj.juc.blockingqueue.code;
  * @Project java_upstream
  * @Package indi.w4xj.juc.blockingqueue.code
  * @Classname Pr
- * @Description TODO  这个到底是为什么
+ * @Description   这个到底是为什么
  * @Date 2021/2/14 15:22
  * @Created by IntelliJ IDEA
  */

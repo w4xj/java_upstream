@@ -5,7 +5,7 @@ package com.w4xj.principle.interface_segregation;
  * @Project java_upstream
  * @Package com.w4xj.principle.interface_segregation
  * @Classname InterfaceSegregation1
- * @Description TODO
+ * @Description 
  * @Date 2022/11/9 21:39
  * @Created by IntelliJ IDEA
  */

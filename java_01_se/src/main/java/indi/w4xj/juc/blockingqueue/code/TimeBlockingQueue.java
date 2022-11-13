@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
  * @Project java_upstream
  * @Package indi.w4xj.juc.blockingqueue.code
  * @Classname TimeBlockingQueue
- * @Description TODO
+ * @Description 
  * @Date 2021/2/14 14:18
  * @Created by IntelliJ IDEA
  */

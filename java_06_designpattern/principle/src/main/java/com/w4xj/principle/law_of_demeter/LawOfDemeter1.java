@@ -8,7 +8,7 @@ import java.util.List;
  * @Project java_upstream
  * @Package com.w4xj.principle.law_of_demeter
  * @Classname LawOfDemeter
- * @Description TODO
+ * @Description
  * @Date 2022/11/10 22:38
  * @Created by IntelliJ IDEA
  */

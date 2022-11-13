@@ -5,7 +5,7 @@ package com.w4xj.principle.liskov_substitution;
  * @Project java_upstream
  * @Package com.w4xj.principle.liskov_substitution
  * @Classname LiskovSubstitution1
- * @Description TODO
+ * @Description 
  * @Date 2022/11/10 20:30
  * @Created by IntelliJ IDEA
  */

@@ -5,7 +5,7 @@ package com.w4xj.principle.open_closed;
  * @Project java_upstream
  * @Package com.w4xj.principle.open_closed
  * @Classname OpenClosed
- * @Description TODO
+ * @Description 
  * @Date 2022/11/10 21:51
  * @Created by IntelliJ IDEA
  */

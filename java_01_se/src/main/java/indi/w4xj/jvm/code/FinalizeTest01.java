@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
  * @Project java_upstream
  * @Package indi.w4xj.jvm.code
  * @Classname FinalizeTest01
- * @Description TODO
+ * @Description 
  * @Date 2021/4/1 23:18
  * @Created by IntelliJ IDEA
  */

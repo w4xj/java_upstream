@@ -5,7 +5,7 @@ package com.w4xj.principle.open_closed;
  * @Project java_upstream
  * @Package com.w4xj.principle.open_closed
  * @Classname OpenClosed2
- * @Description TODO
+ * @Description 
  * @Date 2022/11/10 22:06
  * @Created by IntelliJ IDEA
  */
@@ -47,7 +47,7 @@ class Rectangle2 extends Shape2 {
 
     @Override
     public void draw() {
-        // TODO Auto-generated method stub
+        //  Auto-generated method stub
         System.out.println(" 绘制矩形 ");
     }
 }
@@ -58,7 +58,7 @@ class Circle2 extends Shape2 {
     }
     @Override
     public void draw() {
-        // TODO Auto-generated method stub
+        //  Auto-generated method stub
         System.out.println(" 绘制圆形 ");
     }
 }
@@ -70,7 +70,7 @@ class Triangle2 extends Shape2 {
     }
     @Override
     public void draw() {
-        // TODO Auto-generated method stub
+        //  Auto-generated method stub
         System.out.println(" 绘制三角形 ");
     }
 }
@@ -83,7 +83,7 @@ class OtherGraphic2 extends Shape2 {
 
     @Override
     public void draw() {
-        // TODO Auto-generated method stub
+        //  Auto-generated method stub
         System.out.println(" 绘制其它图形 ");
     }
 }

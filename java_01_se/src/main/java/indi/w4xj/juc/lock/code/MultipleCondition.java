@@ -9,7 +9,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * @Project java_upstream
  * @Package indi.w4xj.juc.lock.code
  * @Classname MultipleCondition
- * @Description TODO
+ * @Description 
  * @Date 2021/2/13 15:19
  * @Created by IntelliJ IDEA
  */

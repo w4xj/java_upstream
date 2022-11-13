@@ -7,7 +7,7 @@ import java.util.concurrent.*;
  * @Project java_upstream
  * @Package indi.w4xj.juc.threadpool.code
  * @Classname FutrureTaskTest
- * @Description TODO
+ * @Description 
  * @Date 2021/4/11 14:26
  * @Created by IntelliJ IDEA
  */

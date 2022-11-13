@@ -16,7 +16,7 @@ import java.util.List;
  * @Project java_upstream
  * @Package indi.w4xj.eureka_consumer_00_standalone_9000.controller
  * @Classname ConsumerController
- * @Description TODO
+ * @Description 
  * @Date 2021/6/1 22:16
  * @Created by IntelliJ IDEA
  */

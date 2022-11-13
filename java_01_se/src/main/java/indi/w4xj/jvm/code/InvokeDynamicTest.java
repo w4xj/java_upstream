@@ -5,7 +5,7 @@ package indi.w4xj.jvm.code;
  * @Project java_upstream
  * @Package indi.w4xj.jvm.code
  * @Classname InvokeDynamicTest
- * @Description TODO
+ * @Description 
  * @Date 2021/5/14 23:39
  * @Created by IntelliJ IDEA
  */

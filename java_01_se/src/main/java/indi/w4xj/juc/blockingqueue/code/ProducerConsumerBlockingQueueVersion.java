@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @Project java_upstream
  * @Package indi.w4xj.juc.blockingqueue.code
  * @Classname ProducerConsumerBlockingQueueVersion
- * @Description TODO
+ * @Description
  * @Date 2021/2/14 16:28
  * @Created by IntelliJ IDEA
  */

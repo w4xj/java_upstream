@@ -8,7 +8,7 @@ import java.util.concurrent.BlockingQueue;
  * @Project java_upstream
  * @Package indi.w4xj.juc.blockingqueue.code
  * @Classname ThrowExceptionBlockingQueueMethod
- * @Description TODO
+ * @Description 
  * @Date 2021/2/14 14:10
  * @Created by IntelliJ IDEA
  */
